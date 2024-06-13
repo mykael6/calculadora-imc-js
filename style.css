@@ -1,0 +1,98 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0; 
+  }
+  html, body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #secaoGeral {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+/* INPUTS */
+  #sec-calculadora {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;     
+    background-color:#f4f5f8;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.185);
+  }
+  .div-inputs {
+    box-sizing: content-box ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+  }   
+  .inputsAndButton {
+    padding: 12px 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0.5px solid rgba(115, 115, 204, 0.555);
+  }	
+  .input {
+    margin-bottom: 10px;
+    width: 100px;
+    padding: 14px 8px;
+  }
+  #btnCalcular {
+    background-color: #36b1df;
+    margin-top: 20px; 
+    padding: 16px 0px;
+    width: 100%;
+    background-color: #36b1df
+  }
+  #btnCalcular:active {
+    background-color: #278aae
+  }
+  /* INTERPRETACAO */
+  #interpretacaoIMC {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;     
+    border: 1px solid rgba(0, 0, 0, 0.185);
+    border-radius: 6px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.486);
+    overflow: hidden;
+  }
+  thead {
+    text-align: center;
+    background-color: #df5836;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 10px; 
+  }
+  .vejaimc {
+    border: none;
+    border-radius: 6px 6px 0px 0px;
+    padding: 10px;
+  }
+  .table-calc tbody tr {
+    border-bottom: 1px solid #707070;
+    transition: .2s background;
+    background-color: white;
+  }
+  .table-calc tbody tr td {
+  padding: 0.5em 5px;
+  font-size: 12px;
+  }
+  .table-calc-blue {
+    font-weight: 600;
+  }
+  .calc-result {
+      font-size: 30px;
+      padding: 0px 5px;  
+  }
+  #img{
+    width: 600px;
+    height: 400;
+  }
